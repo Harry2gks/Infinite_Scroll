@@ -1,34 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
  <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, 
-  initial-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <title>Infinite Scroll</title>
-  <link rel="icon" type="image.png" href="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com">
-  <link rel="stylesheet" href="style.css" 
- </head>
-  
+  <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com">
+  <link rel="stylesheet" href="style.css"> 
+</head>
   <body>
-    
     <!--Title-->
     <h1>Unsplash API - Infinite Scroll</h1>
     <!--Loader-->
-    <!--<div class="loader" id="loader">
-        <img src="loader.svg" alt="Loading">
-      </div>
-      <!--Image container-->
-      <div class="image-container">
-        <img src="https://images.unsplash.com/photo-1639933217419-f48cb12b7150?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" alt="">
-      </div>  
-      
-      <div class="image-container">
-        <img src="https://images.unsplash.com/photo-1639933217419-f48cb12b7150?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" alt="">
-      </div> 
-
-      <div class="image-container">
-        <img src="https://images.unsplash.com/photo-1639933217419-f48cb12b7150?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" alt="">
-      </div> 
+    <div class="loader" id="loader" hidden>
+    <img src="loader.svg" alt="Loading">
+    </div>
+    <!--Image container-->
+    <div class="image-container" id="image-container"></div> 
     <!--Script-->
     <script src="script.js"></script>
   </body>
